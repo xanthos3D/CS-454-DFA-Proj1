@@ -213,10 +213,10 @@ int main() {
    int input;
    cout<<"N = ";
     cin>>input;
-    if(input >= 0){
+    if(input >= 0 && input <= 300){
         cout<<" Answer:  "<<NthRecur(input)<<endl;
     }
-    while(!cin || input < 0){
+    while(!cin || input < 0 || input > 300){
         cin.clear();// clears the fail state of the cin stream
         cin.ignore(200, '\n');// clears keyboard buffer for any extra characters
             //prompts user for another input
