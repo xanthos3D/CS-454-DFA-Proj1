@@ -1,0 +1,6 @@
+xander maniaci and Homero
+project 1
+
+contrabutions
+xander: worked on implementation of recursive function and dynamin programming of recursive function to make algorithm effecient.
+homero.: worked on encoding strings of our language, decoding them,transition function nessary to perform recursive function, and GMP implementation.
